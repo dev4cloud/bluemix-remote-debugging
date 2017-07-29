@@ -17,7 +17,9 @@ Before we can start, make sure the following preconditions are fulfilled:
 
 For being able to connect with Bluemix from within Eclipse, we need to install a corresponding plugin at first. To search for plugins in Eclipse, go to _Help_ in the menu bar and navigate to _Eclipse Marketplace_. You should then see a window where you can search for available plugins. Typing "bluemix" and start searching should offer you the _IBM Eclipse Tools for Bluemix for Oxygen_ plugin. 
 
-<img src="https://github.com/dev4cloud/bluemix-remote-debugging/blob/master/graphics/bluemix-plugin.png">
+<p align="center">
+  <img src="https://github.com/dev4cloud/bluemix-remote-debugging/blob/master/graphics/bluemix-plugin.png" width=454 height=586>
+</p>
 
 Click _Install_, accept the license terms as well as the pre-selected packages and finally restart Eclipse after a successful installation process.
 
