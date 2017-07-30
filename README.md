@@ -23,6 +23,8 @@ For being able to connect with Bluemix from within Eclipse, we need to install a
   <img src="https://github.com/dev4cloud/bluemix-remote-debugging/blob/master/graphics/bluemix-plugin.png" width=454 height=586>
 </p>
 
+<br/>
+
 Click _Install_, accept the license terms as well as the pre-selected packages and finally restart Eclipse after a successful installation process.
 
 <br/>
@@ -45,4 +47,13 @@ Now you're prompted to provide your Bluemix credentials. Besides, make sure you 
 </p>
 <br/>
 
+Given that your login has been successful, a new "IBM Bluemix" entry should appear in the _Servers_ tab of Eclipse. You can expand the entry and see all the services you have currently deployed in Bluemix.
+
+<br/>
+
+<p align="center">
+  <img src="https://github.com/dev4cloud/bluemix-remote-debugging/blob/master/graphics/eclipse-bluemix-4.png" width=600 height=200>
+</p>
+
+<br/>
 
