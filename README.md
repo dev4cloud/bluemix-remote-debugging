@@ -98,6 +98,7 @@ Make sure that the app is selected and navigate to _Project > Properties_ from t
 
 Activate the checkbox and make also sure that the _Java_ facet is also selected and its version is 1.7 (this is also marked as "required" by the _Dynamic Web Module_ facet). Otherwise, Eclipse will start throwing weird exceptions and error messages. As soon as you're finished, the hangman app should now be recognized correctly by the Bluemix plugin.       
 
+<br/>
 
 ## Ant build configuration
 
@@ -126,6 +127,16 @@ The _build_ target should already be checked, which is perfectly ok for us. This
 ## Deploying the hangman app to Bluemix
 
 The final step before we can start a remote debugging session is transferring the hangman application to Bluemix and launch it there. It is assumed that at this point, the configured Bluemix server has recognized your hangman Eclipse project as ready for being deployed to Bluemix (if not, go back to [this](#fix) section). 
+Right-click the Bluemix server in the Eclipse _Servers_ tab and go to _Add and Remove..._ as you did before. The hangman app, which is now listed on the left side as available for deployment to Bluemix, can easily be transferred to Bluemix by highlighting it and clicking on _Add >_ afterwards. You can track the deployment process by watching the console output.
+
+<br/>
+
+<p align="center">
+  <img src="https://github.com/dev4cloud/bluemix-remote-debugging/blob/master/graphics/eclipse-bluemix-deployment-2.png" width=525 height=550>
+</p>
+
+<br/>
+
 
 
 
