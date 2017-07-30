@@ -1,6 +1,6 @@
-# bluemix-remote-debugging
+# How to debug Java EE applications running in Bluemix from Eclipse IDE 
 
-Detailed introduction to remote debugging Java EE applications in Bluemix.
+<br/>
 
 ## Requirements
 
@@ -12,6 +12,7 @@ Before we can start, make sure the following preconditions are fulfilled:
 
 * You have installed the Cloud Foundry CLI (if not, download from <a href="https://github.com/cloudfoundry/cli">here</a>)
 
+<br/>
 
 ## Boosting Eclipse for Bluemix development
 
@@ -24,6 +25,7 @@ For being able to connect with Bluemix from within Eclipse, we need to install a
 
 Click _Install_, accept the license terms as well as the pre-selected packages and finally restart Eclipse after a successful installation process.
 
+<br/>
 
 ## Connecting Eclipse to your Bluemix account
 
