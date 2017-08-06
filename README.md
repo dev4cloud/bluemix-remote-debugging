@@ -151,6 +151,27 @@ The current state of your deployment is also visible in your Bluemix console. Yo
 
 ## Starting a remote debugging session
 
-We're now all set to finally give remote debugging with Eclipse and Bluemix a try. 
+We're now all set to finally give remote debugging with Eclipse and Bluemix a try. First of all, we need to switch over the already deployed application into debug mode. The debug mode is disabled by default. To get it activated, right-click the hangman app in the Eclipse _Servers_ view, and hit _Enable Application debug_.
+
+<br/>
+
+<p align="center">
+  <img src="https://github.com/dev4cloud/bluemix-remote-debugging/blob/master/graphics/eclipse-bluemix-debug-2.png" width=645 height=700>
+</p>
+
+<br/>
+
+You will see that the application must be restarted by Bluemix to bring it into debug mode, which might take a few seconds. Once the deployment is back in "Running" state (or the Eclipse console says that the app "appears to be running"), the debugging can eventually begin. Select a place in the hangmann app's source code you want to inspect and set a breakpoint. For example, you can set your breakpoint in the _doPost_ method of the _LoadGame_ class, since this method will be passed everytime a new word category has been chosen in the dropdown menu. Make sure you've defined at least one breakpoint and then navigate to the hangmann app by following the URL from the Bluemix Dashboard. As soon as the execution path passes your breakpoint, you will see Eclipse switching into the debug perspective, which allows for inspecting variables, the current call stack and so on.
+
+
+<br/>
+
+<p align="center">
+  <img src="https://github.com/dev4cloud/bluemix-remote-debugging/blob/master/graphics/eclipse-bluemix-debug.png" width=960 height=525>
+</p>
+
+<br/>
+
+
 
 
