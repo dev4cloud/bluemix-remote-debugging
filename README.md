@@ -138,6 +138,19 @@ Right-click the Bluemix server in the Eclipse _Servers_ tab and go to _Add and R
 <br/>
 
 
+The current state of your deployment is also visible in your Bluemix console. You should see that a new application appears under _Cloud Foundry Apps_ whose state should finally go to green and "Running" once the deployment has finished and the hangman app is ready.
 
+<br/>
+
+<p align="center">
+  <img src="https://github.com/dev4cloud/bluemix-remote-debugging/blob/master/graphics/eclipse-bluemix-deployment-4.png" width=930 height=180>
+</p>
+
+<br/>
+
+
+## Starting a remote debugging session
+
+We're now all set to finally give remote debugging with Eclipse and Bluemix a try. 
 
 
